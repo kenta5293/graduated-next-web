@@ -1,1 +1,1 @@
-# graduated-next-web
+# Graduated Project - NEXT.JS
