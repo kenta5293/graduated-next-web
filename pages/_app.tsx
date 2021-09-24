@@ -1,7 +1,7 @@
 import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import '../styles/globals.css';
-import MainLayout from '../components/layout/MainLayout/MainLayout';
+import MainLayout from '../layout/MainLayout/MainLayout';
 
 function MyApp({ Component, pageProps }) {
   return (
