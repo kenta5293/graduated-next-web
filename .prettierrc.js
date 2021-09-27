@@ -1,5 +1,5 @@
 module.exports = {
-  printWidth: 80, 
+  printWidth: 200, 
   parser: 'typescript',
   singleQuote: true, 
   tabWidth: 2, 
