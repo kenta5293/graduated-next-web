@@ -2,8 +2,9 @@ import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import '../styles/globals.scss';
 import MainLayout from '../layout/MainLayout/MainLayout';
+import type { AppProps } from 'next/app';
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
@@ -16,6 +17,6 @@ function MyApp({ Component, pageProps }) {
       </Provider>
     </>
   );
-}
+};
 
 export default MyApp;
