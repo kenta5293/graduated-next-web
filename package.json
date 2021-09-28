@@ -15,8 +15,6 @@
     "@types/node": "^16.9.6",
     "@types/react": "^17.0.24",
     "@zeit/next-sass": "^1.0.1",
-    "mobx": "^6.3.3",
-    "mobx-react": "^7.2.0",
     "next": "11.1.2",
     "prettier": "^2.4.1",
     "react": "17.0.2",

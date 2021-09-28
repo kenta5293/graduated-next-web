@@ -1,4 +1,3 @@
-import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import '../styles/globals.scss';
 import MainLayout from '../layout/MainLayout/MainLayout';
@@ -11,11 +10,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
         <title>졸업프로젝트</title>
       </Head>
-      <Provider>
-        <MainLayout>
-          <Component {...pageProps} />
-        </MainLayout>
-      </Provider>
+      <MainLayout>
+        <Component {...pageProps} />
+      </MainLayout>
     </>
   );
 };
