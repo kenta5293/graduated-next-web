@@ -4,8 +4,8 @@ const Main = () => {
   return (
     <>
       <div>
-        <Link href="/about">
-          <a>→ About 🥳</a>
+        <Link href="/counter">
+          <a>→ Counter 🥳</a>
         </Link>
       </div>
     </>
